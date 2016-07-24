@@ -1,0 +1,155 @@
+*{
+	margin:0;
+	padding:0;
+}
+body,html{
+	min-width:1200px;
+}
+.clearfix:after{
+	content:"";
+	display:block;
+	height:0;
+	line-height:0;
+	width:100%;
+	clear:both;
+}
+.shop-top{
+	width:100%;
+	border-bottom:1px solid #3D3B3B;
+	padding:0 75px;
+}
+.shop-top-box>span{
+	display:block;
+	width:160px;
+	height:42px;
+	line-height:42px;
+	text-align:center;
+	background-color:#333;
+	color:#fff;
+	font-size:12px;
+}
+.shop{
+	width:100%;
+	padding:0 75px;
+	box-sizing:border-box;
+}
+.shop-list{
+	float:left;
+	width:33%;
+	margin-right:2px;
+	box-sizing:border-box;
+}
+.shop-img{
+
+	float:right;
+	width:50%;
+}
+.shop-img .list-img{
+	width:100%;
+	margin-left:-20px;
+	transition:transform 1s;
+	position: relative;
+	z-index:0;
+}
+.shop-img:hover .list-img{
+	transform:translateX(-10px);
+}
+.shop-info{
+	float:left;
+	margin-left:20px;
+	margin-top:25px;
+	position: relative;
+	z-index:44;
+}
+.shop-info .title{
+	color:#000;
+	font-size:20px;
+	line-height:22px;
+	font-weight:200;
+	height:60px;
+	cursor:pointer;
+	transition:color .5s ease;
+}
+.shop-info .title:hover{
+	color:#FE575F;
+}
+.shop-info .price{
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	font-weight:400;
+	color:#FE575F;
+
+}
+.shop-info .shop-btn{
+	border:1px solid #FE575F;
+	color:#FE575F;
+	width:120px;
+	height:40px;
+	background-color:transparent;
+	transition:all .5s ease;
+	cursor: pointer;
+	outline:none;
+}
+.shop-info .shop-btn:hover{
+	background:#FE575F;
+	color:#fff;
+}
+.shop-car{
+	margin-top:75px;
+	width:100%;
+	height:400px;
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-size: 2560px auto;
+	background-image: url(../img/bg.jpg);
+	padding:0 75px;
+	box-sizing:border-box;
+	border:1px solid transparent;
+}
+.shop-car table{
+	margin:0 auto;
+	margin-top:60px;
+	width:90%;
+}
+.shop-car th{
+	margin-left:2px;
+	margin-bottom:2px;
+	background-color:#8FCE23;
+	padding:5px 10px;
+	cursor:pointer;
+}
+.shop-car td{
+	text-align:center;
+	height:56px;
+	margin-left:2px;
+	margin-bottom:2px;
+	background-color:#fff;
+}
+.shop-car td span{
+	height:56px;
+	display:block;
+	float:left;
+	line-height:56px;
+	margin-left:20px;
+	font-size:14px;
+}
+.shop-car .shop-img img{
+	width:50px;
+}
+.shop-car .price{
+	color:#FE575F;
+}
+button{
+	background-color: transparent;
+	border:1px solid #ccc;
+	cursor:pointer;
+}
+.shop-car .del-btn{
+	color:#968BE7;
+	border:1px solid #8FCE23;
+}
+.shop-car .shop-sum td{
+	background-color:#EC5510;
+	color:#fff;
+}
